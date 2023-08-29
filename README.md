@@ -137,7 +137,7 @@ Total da venda
 <h1 align="center">
   <img alt="resumo-page-1" title="resumo-page-1" src="./screenshots/resumo-page-1.png" />
 </h1>
--
+
 <h1 align="center">
   <img alt="resumo-page-2" title="resumo-page-2" src="./screenshots/resumo-page-2.png" />
 </h1>
