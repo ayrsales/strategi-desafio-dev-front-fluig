@@ -71,14 +71,8 @@ Ao acessar a aplicação você será direcionado para a página de login:
 </h1>
 
 ### para acessar as outras páginas é necessário estar logado.
-### Para fazer login na aplicação utilize os dados:
 
-
-nome de usuário: Thiago Ferreira
-
-senha: 12345
-
-ao tentar fazer login com dados inválidos aparecerão mensagens de erro como no exemplo abaixo e não conseguirá efetuar o login:
+Ao tentar fazer login com dados inválidos aparecerão mensagens de erro como no exemplo abaixo e não conseguirá efetuar o login:
 
 <h1 align="center">
   <img alt="login-page-error-example" title="login-page-error-example" src="./screenshots/login-page-error-example.png" />
@@ -96,13 +90,13 @@ A página de imoveis ira mostrar todos os imoveis cadastrados no banco de dados:
   <img alt="imoveis-page-1" title="imoveis-page-1" src="./screenshots/imoveis-page-1.png" />
 </h1>
 
-cada card de imóvel irá mostrar as seguintes informações:
+Cada card de imóvel irá mostrar as seguintes informações:
 ```
-foto do imóvel
-tipo: pode ser apartamento ou lote
-endereço: endereço do imóvel
-valor da venda: o valor de venda o imóvel
-valor da comissão: o valor de comissão para o vendedor(5% do valor do imóvel)
+Foto do imóvel
+Tipo: pode ser apartamento ou lote
+Endereço: endereço do imóvel
+Valor da venda: o valor de venda o imóvel
+Valor da comissão: o valor de comissão para o vendedor(5% do valor do imóvel)
 
 ```
 
@@ -112,11 +106,8 @@ Ao clicar no imóvel que deseja vender você será direcionado para a página de
 
 # Simulação de pagamento
 
-  Na página de simulação de pagamento você poderá escolher entre as formas de pagamento:
-  
- à vista 
- ou
-  à prazo dividido em 180 parcelas.
+Na página de simulação de pagamento você poderá escolher entre as formas de pagamento:
+À vista ou à prazo dividido em 180 parcelas.
 
 <h1 align="center">
   <img alt="simulacao-pagamento-page" title="simulacao-pagamento-page" src="./screenshots/simulacao-pagamento-page.png" />
@@ -143,11 +134,11 @@ Ao clicar no cliente escolhido para fazer a venda você será direcionado para o
 A página de resumo irá mostrar os dados da sua venda:
 
 ```
-nome do corretor logado (quem fará a venda).
-dados do imovel que foi escolhido na página de imoveis.
-dados do cliente que foi escolhido na página de clientes.
-forma de pagamento 
-total da venda
+Nome do corretor logado (quem fará a venda).
+Dados do imovel que foi escolhido na página de imoveis.
+Dados do cliente que foi escolhido na página de clientes.
+Forma de pagamento 
+Total da venda
 
 ```
 
@@ -172,7 +163,7 @@ Caso tenha algo de errado com a sua venda aparecerá uma mensagem de erro como p
   <img alt="vendas-error-example" title="vendas-error-example" src="./screenshots/vendas-error-example.png" />
 </h1>
 
-e a venda não será registrada no banco de dados.
+E a venda não será registrada no banco de dados.
 
 ---
 
@@ -219,7 +210,7 @@ Ao clicar nos 3 pontinhos no card de cliente :
   <img alt="3-pontos-zoom" title="3-pontos-zoom" src="./screenshots/3-pontos-zoom.png" />
 </h1>
 
-irá abrir um modal:
+Irá abrir um modal:
 
 <h1 align="center">
   <img alt="modal-edit-delete" title="modal-edit-delete" src="./screenshots/modal-edit-delete.png" />
@@ -233,9 +224,9 @@ Ao clicar em editar irá abrir um modal de edição de clientes com as informaç
 
 Todas as informações do cliente podem ser alteradas, lembrando que dois clientes não podem ter o mesmo cpf ou o mesmo email.
 
-após mudar as informações que deseja clique em confirmar edição.
+Após mudar as informações que deseja clique em confirmar edição.
 
-caso tenha algum erro com a edição dos dados irá aparecer uma mensagem de erro como por exemplo:
+Caso tenha algum erro com a edição dos dados irá aparecer uma mensagem de erro como por exemplo:
 
 <h1 align="center">
   <img alt="editar-clientes-error-example" title="editar-clientes-error-example" src="./screenshots/editar-clientes-error-example.png" />
@@ -247,7 +238,7 @@ Caso esteja tudo certo a edição dos dados será feita no banco de dados, o mod
   <img alt="editar-clientes-success-example" title="editar-clientes-success-example" src="./screenshots/editar-clientes-success-example.png" />
 </h1>
 
-e o cliente com os dados alterados aparecerá na sua listagem de clientes.
+E o cliente com os dados alterados aparecerá na sua listagem de clientes.
 
 # Deletar cliente
 
@@ -272,16 +263,6 @@ Caso dê tudo certo com a exclusão do cadastro do cliente, aparecerá uma mensa
   <img alt="deletar-clientes-success-example" title="deletar-clientes-success-example" src="./screenshots/deletar-clientes-success-example.png" />
 </h1>
 
- O cadastro do cliente será deletado do banco de dados e ele não aparecerá mais na sua listagem de clientes.
-
----
-
-### 🛠 Tecnologias
-
-As seguintes ferramentas foram usadas na construção do projeto:
-
-
-- [React.js](https://pt-br.reactjs.org/)
-- [Sass](https://sass-lang.com/)
+O cadastro do cliente será deletado do banco de dados e ele não aparecerá mais na sua listagem de clientes.
 
 ---
