@@ -6,13 +6,7 @@
 ---
 
 ## O problema
-Desenvolva uma pequena aplicação web de venda de imóveis onde um vendedor faz o login na
-aplicação, escolhe o imóvel(Apartamento ou Lote) na tela de seleção devem aparecer a localização do
-imóvel(endereço), valor de venda, valor de comissão do vendedor(5%) e qualquer outra informação
-que você queria colocar na tela, realiza a simulação de pagamento do imóvel (à vista ou 180 parcelas),
-escolhe o cliente que a venda será realizada e na tela final apresenta um resumo(extrato do
-financiamento) de toda a transação: Quem foi o vendedor, qual foi o imóvel, para quem foi vendido o
-imóvel e as condições de pagamento e extrato.
+Desenvolva uma pequena aplicação web de venda de imóveis onde um vendedor faz o login na aplicação, escolhe o imóvel(Apartamento ou Lote) na tela de seleção devem aparecer a localização do imóvel(endereço), valor de venda, valor de comissão do vendedor(5%) e qualquer outra informação que você queria colocar na tela, realiza a simulação de pagamento do imóvel (à vista ou 180 parcelas), escolhe o cliente que a venda será realizada e na tela final apresenta um resumo(extrato do financiamento) de toda a transação: Quem foi o vendedor, qual foi o imóvel, para quem foi vendido o imóvel e as condições de pagamento e extrato.
 
 ---
 
@@ -70,7 +64,7 @@ Ao acessar a aplicação você será direcionado para a página de login:
   <img alt="login-page" title="login-page" src="./screenshots/login-page.png" />
 </h1>
 
-### para acessar as outras páginas é necessário estar logado.
+### Para acessar as outras páginas é necessário estar logado.
 
 Ao tentar fazer login com dados inválidos aparecerão mensagens de erro como no exemplo abaixo e não conseguirá efetuar o login:
 
@@ -97,7 +91,6 @@ Tipo: pode ser apartamento ou lote
 Endereço: endereço do imóvel
 Valor da venda: o valor de venda o imóvel
 Valor da comissão: o valor de comissão para o vendedor(5% do valor do imóvel)
-
 ```
 
 Ao clicar no imóvel que deseja vender você será direcionado para a página de simulação de pagamento.
@@ -139,7 +132,6 @@ Dados do imovel que foi escolhido na página de imoveis.
 Dados do cliente que foi escolhido na página de clientes.
 Forma de pagamento 
 Total da venda
-
 ```
 
 <h1 align="center">
